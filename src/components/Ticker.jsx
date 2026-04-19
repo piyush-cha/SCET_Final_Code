@@ -1,11 +1,11 @@
 import { motion } from "motion/react";
 
 const TICKER_ITEMS = [
-  "Admissions 2026–27 open for B.Tech, MBA, MCA — apply before 15 June",
-  "NAAC A+ Accreditation reaffirmed — Third cycle",
-  "Placement Season 2025 closes at 96% with ₹42 LPA highest package",
-  "SCET ranked among Top 25 engineering colleges in Central India — IBR 2025",
-  "Tech Samagam '26 national fest — registrations open",
+  "Admissions 2026–27 open for B.Tech, MBA, MCA  apply before 15 June",
+  "NAAC A+ Accreditation reaffirmed  Third cycle",
+  "Placement Season 2025 closes at 100% with ₹14 LPA highest package",
+  "SCET ranked among Top 25 engineering colleges in Central India  IBR 2025",
+  "Tech Samagam '26 national fest  registrations open",
 ];
 
 export default function Ticker() {

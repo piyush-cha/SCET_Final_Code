@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..900,0..100;1,9..144,300..900,0..100&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..800;1,300..800&family=Outfit:wght@300..800&family=JetBrains+Mono:wght@400;500&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Fraunces", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Outfit", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
-  /* Default (Light) - Blue + Yellow Theme */
-  --color-bg: #f0f7ff;
-  --color-surface: #e6f2ff;
-  --color-surface-light: #d6ecff;
+  /* Default (Light) - White Mode Theme with Brand Colors */
+  --color-bg: #ffffff;
+  --color-surface: #f8fafc;
+  --color-surface-light: #f1f5f9;
   --color-border: rgba(13, 71, 161, 0.15);
   --color-accent: #ffc400;
   --color-text: #0d47a1;
   --color-text-dim: #1565c0;
-  
+
   --color-burgundy: #1565c0;
   --color-gold: #ffc400;
 
@@ -31,7 +31,7 @@
     --color-accent: #ffc400;
     --color-text: #ffffff;
     --color-text-dim: #b0b0b0;
-    
+
     --color-burgundy: #ffc400;
     --color-gold: #ffc400;
 
@@ -50,8 +50,13 @@
 }
 
 @keyframes ticker {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .animate-ticker {
