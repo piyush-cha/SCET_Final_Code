@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..900,0..100;1,9..144,300..900,0..100&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Default (Light) - Original Cream Theme */
+  --color-bg: #faf4e6;
+  --color-surface: #f3ead4;
+  --color-surface-light: #e8dcc0;
+  --color-border: rgba(11, 20, 34, 0.12);
+  --color-accent: #d97f3c;
+  --color-text: #0b1422;
+  --color-text-dim: #111d30;
+  
+  --color-burgundy: #7a1e1e;
+  --color-gold: #c9a961;
+
+  --color-nav-bg: #0b1422;
+  --color-nav-text: #faf4e6;
+}
+
+@layer base {
+  :root.dark {
+    --color-bg: #0A0A0A;
+    --color-surface: #141414;
+    --color-surface-light: #1D1D1D;
+    --color-border: #2D2D2D;
+    --color-accent: #E4E4E7;
+    --color-text: #F4F4F5;
+    --color-text-dim: #71717A;
+    
+    --color-burgundy: #E4E4E7;
+    --color-gold: #E4E4E7;
+
+    --color-nav-bg: #141414;
+    --color-nav-text: #F4F4F5;
+  }
+
+  body {
+    @apply bg-bg text-text font-sans antialiased transition-colors duration-300;
+  }
+}
+
+.display-italic {
+  font-style: italic;
+  font-variation-settings: "SOFT" 80, "opsz" 144;
+}
+
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-ticker {
+  animation: ticker 55s linear infinite;
+}
