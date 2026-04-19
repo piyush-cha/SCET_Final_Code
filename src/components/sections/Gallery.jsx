@@ -17,7 +17,7 @@ export default function Gallery() {
             <h2 className="font-serif text-[clamp(42px,5vw,72px)] text-text leading-tight tracking-tight font-medium italic">A place, in <em className="text-accent not-italic font-light">pictures.</em></h2>
           </div>
           <p className="text-[16px] leading-[1.6] text-text-dim opacity-60 max-w-[500px]">
-            Seventeen acres, eleven departments, and a thousand afternoons in between. A glimpse into life at Suryodaya — from convocation stages to chai-stained lab notebooks.
+            Seventeen acres, eleven departments, and a thousand afternoons in between. A glimpse into life at Suryodaya  from convocation stages to chai-stained lab notebooks.
           </p>
         </div>
 

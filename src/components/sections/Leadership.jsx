@@ -1,8 +1,8 @@
 const LEADERS = [
-  { initials: "AM", role: "President", name: "Shri Anil Mundada", quote: "Education is the single most important investment a nation makes in its own future. Our job is to steward that investment with care.", p: "bg-surface-light border border-border" },
-  { initials: "SM", role: "Secretary", name: "Dr. Suresh Mundada", quote: "A college is not measured by its buildings but by the questions its students learn to ask. We build restless, rigorous minds.", p: "bg-surface border border-border" },
-  { initials: "RP", role: "Principal", name: "Dr. Rajesh Pande", quote: "Every engineer we graduate carries the Suryodaya mark — a marriage of technical depth with human decency. That is non-negotiable.", p: "bg-bg border border-border" },
-  { initials: "NK", role: "CEO & Vice Principal", name: "Prof. Neha Kulkarni", quote: "We believe the best classrooms are half laboratory, half dialogue — and always in service of something larger than a grade.", p: "bg-surface-light border border-border" },
+  { initials: "DC", role: "President", name: "Shri Deepak Chafle", quote: "Education is the single most important investment a nation makes in its own future. Our job is to steward that investment with care.", p: "bg-surface-light border border-border" },
+  { initials: "RC", role: "Secretary", name: "Shri Ranjit Chafle", quote: "A college is not measured by its buildings but by the questions its students learn to ask. We build restless, rigorous minds.", p: "bg-surface border border-border" },
+  { initials: "VG", role: "Principal", name: "Dr. V. G. Arajpure", quote: "Every engineer we graduate carries the Suryodaya mark  a marriage of technical depth with human decency. That is non-negotiable.", p: "bg-bg border border-border" },
+  { initials: "VP", role: "CEO & Vice Principal", name: "Dr. V. G. Parate", quote: "We believe the best classrooms are half laboratory, half dialogue  and always in service of something larger than a grade.", p: "bg-surface-light border border-border" },
 ];
 
 export default function Leadership() {

@@ -3,7 +3,7 @@ const CONTACT_INFO = [
   { label: "Telephone", val: "+91 712 655 1200 / 1300" },
   { label: "Admissions", val: "admissions@scet.ac.in" },
   { label: "General", val: "hello@scet.ac.in" },
-  { label: "Office hours", val: "Mon — Sat · 09:00 to 17:30 IST" },
+  { label: "College Timing", val: "Mon to Sat · 9:30 to 4:30" },
 ];
 
 export default function Contact() {
@@ -49,7 +49,7 @@ export default function Contact() {
           </div>
           <div className="p-[22px_26px] border-t border-border flex justify-between items-center bg-bg">
             <div className="font-mono text-[11px] tracking-[0.15em] opacity-40 font-bold text-text-dim">21.1458° N · 79.0882° E</div>
-            <a href="#" className="text-accent font-mono text-[11px] tracking-[0.18em] uppercase flex items-center gap-2 font-bold hover:underline transition-all group-hover:gap-3">Open in Maps ↗</a>
+            <a href="https://share.google/tiJJ49yn35lY4I2Pf" target="_blank" rel="noopener noreferrer" className="text-accent font-mono text-[11px] tracking-[0.18em] uppercase flex items-center gap-2 font-bold hover:underline transition-all group-hover:gap-3">Open in Maps ↗</a>
           </div>
         </div>
       </div>

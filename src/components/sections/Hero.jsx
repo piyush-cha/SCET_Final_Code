@@ -62,10 +62,11 @@ export default function Hero() {
             </div>
 
             <h1 className="font-serif text-[clamp(48px,10vw,90px)] leading-[1.1] tracking-tight mb-8 text-white font-bold drop-shadow-lg">
-              <span className="block">Excellence in</span>
-              <span className="block text-accent">Engineering</span>
-              <span className="block">Education</span>
+              <span className="block text-accent">Suryodaya</span>
+              <span className="block ">College of </span>
+              <span className="block">Engineering and Technology</span>
             </h1>
+
 
             <p className="text-[16px] lg:text-[18px] leading-relaxed max-w-[500px] text-white/85 mb-10 font-light drop-shadow">
               Shaping the next generation of <span className="font-serif italic text-yellow-300">engineers and innovators</span> with world-class education and industry excellence.

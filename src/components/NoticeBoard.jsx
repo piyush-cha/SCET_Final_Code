@@ -2,10 +2,10 @@ import { motion } from "motion/react";
 import { ArrowRight, Mail, Bell } from "lucide-react";
 
 const NOTICES = [
-  { tag: "Admissions", title: "B.Tech 2026 registrations — merit list released", date: "18 · APR · 2026", color: "tag-admission" },
+  { tag: "Admissions", title: "B.Tech 2026 registrations  merit list released", date: "18 · APR · 2026", color: "tag-admission" },
   { tag: "Event", title: "Tech Samagam '26: National-level technical fest", date: "12 · APR · 2026", color: "tag-event" },
-  { tag: "Notice", title: "Revised Fee Structure — Academic Year 2026–27", date: "05 · APR · 2026", color: "tag-notice" },
-  { tag: "Result", title: "Semester VI results declared — RTMNU affiliated", date: "28 · MAR · 2026", color: "tag-result" },
+  { tag: "Notice", title: "Revised Fee Structure  Academic Year 2026–27", date: "05 · APR · 2026", color: "tag-notice" },
+  { tag: "Result", title: "Semester VI results declared  RTMNU affiliated", date: "28 · MAR · 2026", color: "tag-result" },
 ];
 
 export default function NoticeBoard({ variant = "dark", limit = 3, showViewAll = true }) {
@@ -20,8 +20,8 @@ export default function NoticeBoard({ variant = "dark", limit = 3, showViewAll =
       transition={{ duration: 0.7 }}
       className="relative w-full"
     >
-      {/* Main Container */}
-      <div className="relative overflow-hidden rounded-[30px] backdrop-blur-1xl bg-gradient-to-br from-white/30 to-white/20 dark:from-white/10 dark:to-white/2 border border-white/40 dark:border-white/20 shadow-2xl group">
+      {/* Main iOS Container with Liquid Morphism */}
+      <div className="relative overflow-hidden rounded-[30px] backdrop-blur-2xl bg-gradient-to-br from-white/30 to-white/20 dark:from-white/10 dark:to-white/2 border border-white/40 dark:border-white/20 shadow-2xl group">
         
         {/* Background blobs (unchanged) */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">

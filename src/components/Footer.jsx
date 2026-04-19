@@ -6,16 +6,8 @@ export default function Footer() {
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1.1fr] gap-10 lg:gap-[60px] pb-[60px] border-b border-border">
         <div className="flex flex-col">
           <a href="#" className="flex items-center gap-[14px] mb-[20px]">
-            <svg className="w-10 h-10 flex-shrink-0" viewBox="0 0 52 52" fill="none">
-              <circle cx="26" cy="26" r="25" stroke="currentColor" strokeWidth="1" className="text-accent" />
-              <path d="M8 34 Q26 10 44 34" stroke="currentColor" strokeWidth="1.5" fill="none" className="text-accent" />
-              <circle cx="26" cy="22" r="7" fill="currentColor" className="text-accent" />
-              <path d="M26 13 L26 6 M26 31 L26 38 M35 22 L42 22 M10 22 L17 22" stroke="currentColor" strokeWidth="1" className="text-accent" />
-            </svg>
-            <div className="flex flex-col leading-[1.05]">
-              <span className="font-serif text-lg font-bold tracking-tight uppercase">Suryodaya</span>
-              <span className="font-mono text-[9px] tracking-[0.28em] text-text-dim mt-[3px] font-bold">CET · EST. 2002</span>
-            </div>
+            <img src="/Assets/Academic.png" alt="Academic Logo" className="h-16 w-16 object-contain" />
+            <img src="/Assets/Society.png" alt="Society Logo" className="h-16 w-16 object-contain" />
           </a>
           <div className="font-serif italic text-[17px] leading-relaxed opacity-60 max-w-[280px] mb-7">
             A place where the sun rises on curious minds, and never quite sets.
@@ -67,8 +59,13 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-[1440px] mx-auto pt-7 flex flex-col md:flex-row justify-between items-center gap-5 font-mono text-[11px] tracking-[0.15em] uppercase text-text/30 font-bold">
-        <div>© 2026 Suryodaya College of Engineering & Technology</div>
+      <div className="max-w-[1440px] mx-auto pt-7 flex flex-col md:flex-row justify-between items-center gap-5 font-mono text-[11px] tracking-[0.15em] uppercase text-text/50 font-bold">
+        <div className="flex flex-col gap-2 md:flex-row md:items-center md:gap-8">
+          <div>© 2026 Suryodaya College of Engineering & Technology</div>
+          <div className="text-accent">
+            Design and Developed by <a href="https://traillx.com" target="_blank" rel="noopener noreferrer" className="hover:underline">TraillX</a>
+          </div>
+        </div>
         <div className="flex gap-5">
           {["Privacy", "Terms", "Sitemap", "RTI"].map((link) => (
             <a key={link} href="#" className="hover:text-text transition-colors">{link}</a>
